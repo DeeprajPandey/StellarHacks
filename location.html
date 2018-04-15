@@ -134,7 +134,7 @@ Change links to sightseeing tours. It currently redirects to blog.html-->
                         </div>
                         <div class="uk-margin-xlarge" uk-grid>
                             <div class="uk-width-2-3@m">
-                                <div class="uk-position-relative uk-position-z-index" uk-scrollspy-class style="height:370px" data-map="{&quot;show_title&quot;:true,&quot;type&quot;:&quot;roadmap&quot;,&quot;zoom&quot;:&quot;15&quot;,&quot;controls&quot;:false,&quot;zooming&quot;:false,&quot;dragging&quot;:false,&quot;styler_saturation&quot;:&quot;-100&quot;,&quot;styler_gamma&quot;:&quot;2&quot;,&quot;height&quot;:&quot;370&quot;,&quot;attrs&quot;:{&quot;uk-scrollspy-class&quot;:true},&quot;class&quot;:[],&quot;center&quot;:{&quot;lat&quot;:43.2979,&quot;lng&quot;:5.367},&quot;markers&quot;:[{&quot;lat&quot;:43.2979,&quot;lng&quot;:5.367}]}"></div>
+                                <div class="uk-position-relative uk-position-z-index uk-scrollspy-inview uk-animation-slide-bottom-medium" id="map" uk-scrollspy-class="" style="height: 370px; position: relative; overflow: hidden;"></div>
                             </div>
                             <div class="uk-width-expand@m"></div>
                         </div>
@@ -247,7 +247,7 @@ Change links to sightseeing tours. It currently redirects to blog.html-->
                                     <div uk-scrollspy-class class="el-item uk-card uk-card-default uk-card-small uk-card-hover">
                                         <a uk-scroll href="#" class="el-link uk-position-cover uk-position-z-index uk-margin-remove-adjacent"></a>
                                         <div class="uk-card-media-top">
-                                            <img src="assets/img/location-hotel-01-885c9d9c.jpg" sizes="(min-width: 899px) 899px, 100vw" width="899" class="el-image" alt>
+                                            <img src="assets/img/location-hotel-01-9ca04c86.jpg" sizes="(min-width: 899px) 899px, 100vw" width="899" class="el-image" alt>
                                         </div>
                                         <div class="uk-card-body">
                                             <h3 class="el-title uk-margin uk-h5">Apex Grass Market    </h3>
@@ -258,7 +258,7 @@ Change links to sightseeing tours. It currently redirects to blog.html-->
                                     <div uk-scrollspy-class class="el-item uk-card uk-card-default uk-card-small uk-card-hover">
                                         <a uk-scroll href="#" class="el-link uk-position-cover uk-position-z-index uk-margin-remove-adjacent"></a>
                                         <div class="uk-card-media-top">
-                                            <img src="assets/img/location-hotel-02-66587ccd.jpg" sizes="(min-width: 899px) 899px, 100vw" width="899" class="el-image" alt>
+                                            <img src="assets/img/location-hotel-02-72a4add7.jpg" sizes="(min-width: 899px) 899px, 100vw" width="899" class="el-image" alt>
                                         </div>
                                         <div class="uk-card-body">
                                             <h3 class="el-title uk-margin uk-h5">Tune Hotel    </h3>
@@ -269,7 +269,7 @@ Change links to sightseeing tours. It currently redirects to blog.html-->
                                     <div uk-scrollspy-class class="el-item uk-card uk-card-default uk-card-small uk-card-hover">
                                         <a uk-scroll href="#" class="el-link uk-position-cover uk-position-z-index uk-margin-remove-adjacent"></a>
                                         <div class="uk-card-media-top">
-                                            <img src="assets/img/location-hotel-03-3c5bdc02.jpg" sizes="(min-width: 899px) 899px, 100vw" width="899" class="el-image" alt>
+                                            <img src="assets/img/location-hotel-03-28a70d18.jpg" sizes="(min-width: 899px) 899px, 100vw" width="899" class="el-image" alt>
                                         </div>
                                         <div class="uk-card-body">
                                             <h3 class="el-title uk-margin uk-h5">Sheraton Grand    </h3>
@@ -458,8 +458,23 @@ Change links to sightseeing tours. It currently redirects to blog.html-->
                 </div>
             </div>
         </div>
+        <div class="uk-position-relative uk-position-z-index" uk-scrollspy-class style="height:370px" data-map="{&quot;show_title&quot;:true,&quot;type&quot;:&quot;roadmap&quot;,&quot;zoom&quot;:&quot;15&quot;,&quot;controls&quot;:false,&quot;zooming&quot;:false,&quot;dragging&quot;:false,&quot;styler_saturation&quot;:&quot;-100&quot;,&quot;styler_gamma&quot;:&quot;2&quot;,&quot;height&quot;:&quot;370&quot;,&quot;attrs&quot;:{&quot;uk-scrollspy-class&quot;:true},&quot;class&quot;:[],&quot;center&quot;:{&quot;lat&quot;:43.2979,&quot;lng&quot;:5.367},&quot;markers&quot;:[{&quot;lat&quot;:43.2979,&quot;lng&quot;:5.367}]}"></div>
         <script>
-            var $google_maps = 'AIzaSyAD8MxEEB0oNa8FaXbCrUMhtEc8eckDvm8';
+            function initMap() {
+                var bbsr = {lat: 20.3005482, lng: 85.7504127};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    show_title
+                    zoom: 4,
+                    center: bbsr
+                });
+                var marker = new google.maps.Marker({
+                    position: bbsr,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeyKtyNx1MrISQxYQ44yqczfnW14rFPSI&callback=initMap">
         </script>
     </body>
 </html>
