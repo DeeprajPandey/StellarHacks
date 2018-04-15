@@ -458,13 +458,19 @@ Change links to sightseeing tours. It currently redirects to blog.html-->
                 </div>
             </div>
         </div>
-        <div class="uk-position-relative uk-position-z-index" uk-scrollspy-class style="height:370px" data-map="{&quot;show_title&quot;:true,&quot;type&quot;:&quot;roadmap&quot;,&quot;zoom&quot;:&quot;15&quot;,&quot;controls&quot;:false,&quot;zooming&quot;:false,&quot;dragging&quot;:false,&quot;styler_saturation&quot;:&quot;-100&quot;,&quot;styler_gamma&quot;:&quot;2&quot;,&quot;height&quot;:&quot;370&quot;,&quot;attrs&quot;:{&quot;uk-scrollspy-class&quot;:true},&quot;class&quot;:[],&quot;center&quot;:{&quot;lat&quot;:43.2979,&quot;lng&quot;:5.367},&quot;markers&quot;:[{&quot;lat&quot;:43.2979,&quot;lng&quot;:5.367}]}"></div>
         <script>
             function initMap() {
                 var bbsr = {lat: 20.3005482, lng: 85.7504127};
                 var map = new google.maps.Map(document.getElementById('map'), {
-                    show_title
-                    zoom: 4,
+                    show_title: true,
+                    type: roadmap,
+                    zoom: 15,
+                    controls:false,
+                    zooming:false,
+                    dragging:false,
+                    styler_saturation: -40,
+                    styler_gamma: 2,
+                    height: 370,
                     center: bbsr
                 });
                 var marker = new google.maps.Marker({
