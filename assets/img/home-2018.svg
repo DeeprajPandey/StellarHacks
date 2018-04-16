@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1604px" height="568px" viewBox="0 0 1604 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>home-2018</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="26.4485921%" y1="21.7599262%" x2="74.9828574%" y2="78.5281995%" id="linearGradient-1">
+            <stop stop-color="#FF8751" offset="0%"></stop>
+            <stop stop-color="#FF496B" offset="36.5708529%"></stop>
+            <stop stop-color="#EC267D" offset="73.6826262%"></stop>
+            <stop stop-color="#DA078D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="home-2018" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-2017" transform="translate(0.000000, -28.000000)">
+            <rect id="Rectangle-path" x="0" y="69" width="1604" height="484"></rect>
+            <text id="2018" font-family="Luminari-Regular, Luminari" font-size="460" font-weight="normal" letter-spacing="16" fill="#F9FAFE">
+                <tspan x="312.64" y="452">201</tspan>
+                <tspan x="1038.22" y="452">8</tspan>
+            </text>
+            <polygon id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" points="1346.17622 263 1353.219 267.066405 1353.219 275.196961 1346.17622 279.262464 1339.13389 275.196961 1339.13389 267.066405"></polygon>
+            <path d="M456.605,29 L472.215,38.013 L472.215,56.034 L456.605,65.045 L440.996,56.034 L440.996,38.013 L456.605,29 Z M456.606564,31 L443.002,39.0115558 L443.002,55.0302229 L456.606564,63.0400009 L470.211999,55.0302229 L470.211999,39.0115558 L456.606564,31 Z" id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <path d="M17.2227349,85.4710223 L26.9793541,91.1043605 L26.9793541,102.367912 L17.2227349,108 L7.46674064,102.367912 L7.46674064,91.1043605 L17.2227349,85.4710223 Z M17.2237123,86.7210696 L8.72053809,91.7284815 L8.72053809,101.740527 L17.2237123,106.746828 L25.7274312,101.740527 L25.7274312,91.7284815 L17.2237123,86.7210696 Z" id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -637,12 +637,12 @@ Change links to sightseeing tours. It currently redirects to blog.html-->
                                 'styled_map']
                     }
                 });
+                map.mapTypes.set('styled_map', styledMapType);
+                map.setMapTypeId('styled_map');
                 var marker = new google.maps.Marker({
                     position: bbsr,
                     map: map
                 });
-                map.mapTypes.set('styled_map', styledMapType);
-                map.setMapTypeId('styled_map');
             }
         </script>
         <script async defer
