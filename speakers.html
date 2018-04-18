@@ -1,428 +1,425 @@
-<!--
-Change the email id for "Submit a proposal" button
-It is email@example.com now-->
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="/themes/wordpress/2017/sonic/wp-content/themes/yootheme/vendor/yootheme/theme/platforms/wordpress/assets/images/favicon.png">
-        <link rel="apple-touch-icon-precomposed" href="/themes/wordpress/2017/sonic/wp-content/themes/yootheme/vendor/yootheme/theme/platforms/wordpress/assets/images/apple-touch-icon.png">
-        <title>Speakers &#8211;StellarHacks</title>
-        <link rel='stylesheet' id='theme-style-css' href='assets/css/theme.css' type='text/css' media='all'/>
-        <script type='text/javascript' src='assets/js/jquery.js'></script>
-        <script type='text/javascript' src='assets/js/jquery-migrate.min.js'></script>
-        <script type='text/javascript' src='assets/js/uikit.min.js'></script>
-        <script type='text/javascript' src='assets/js/uikit-icons.min.js'></script>
-        <script type='text/javascript' src='assets/js/theme.js'></script>
-    </head>
-    <body class="page-template-default page">
-        <div class="tm-page">
-            <div class="tm-header-mobile uk-hidden@m">
-                <nav class="uk-navbar-container" uk-navbar>
-                    <div class="uk-navbar-left">
-                        <a class="uk-navbar-item uk-logo" href="indx.html">
-                            <img src="assets/img/logo-mobile.svg" class="uk-responsive-height" alt="StellarHacks">
-                        </a>
-                    </div>
-                    <div class="uk-navbar-right">
-                        <a class="uk-navbar-toggle" href="#tm-mobile" uk-toggle>
-                            <div uk-navbar-toggle-icon></div>
-                        </a>
-                    </div>
-                </nav>
-                <div id="tm-mobile" class="uk-modal-full" uk-modal>
-                    <div class="uk-modal-dialog uk-modal-body uk-text-center uk-flex" uk-height-viewport>
-                        <button class="uk-modal-close-full" type="button" uk-close></button>
-                        <div class="uk-margin-auto-vertical uk-width-1-1">
-                            <div class="uk-child-width-1-1" uk-grid>
-                                <div>
-                                    <div class="uk-panel">
-                                        <ul class="uk-nav uk-nav-primary uk-nav-center">
-                                            <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
-                                                <a href="index.html">Home</a>
-                                            </li>
-                                            <li class="uk-active  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">
-                                                <a href="speakers.html">Speakers</a>
-                                            </li>
-                                            <li class=" menu-item menu-item-type-post_type menu-item-object-page">
-                                                <a href="schedule.html">Schedule</a>
-                                            </li>
-                                            <li class=" menu-item menu-item-type-post_type menu-item-object-page">
-                                                <a href="location.html">Location</a>
-                                            </li>
-                                            <li class=" menu-item menu-item-type-post_type menu-item-object-page">
-                                                <a href="sponsors.html">Sponsors</a>
-                                            </li>
-                                            <!--li class=" menu-item menu-item-type-post_type menu-item-object-page">
-                                                <a href="blog.html">Blog</a>
-                                            </li-->
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="uk-panel widget-text" id="widget-text-1">
-                                        <div class="textwidget">
-                                            <p class="uk-text-center">
-                                                <a class="uk-button uk-button-primary uk-button-large" href="info.html">Get tickets</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tm-header uk-visible@m" uk-header>
-                <div uk-sticky media="768" show-on-up animation="uk-animation-slide-top" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
-                    <div class="uk-navbar-container">
-                        <div class="uk-container uk-container-expand">
-                            <nav class="uk-navbar" uk-navbar="{&quot;align&quot;:&quot;left&quot;,&quot;boundary&quot;:&quot;!.uk-navbar-container&quot;,&quot;dropbar&quot;:true,&quot;dropbar-anchor&quot;:&quot;!.uk-navbar-container&quot;,&quot;dropbar-mode&quot;:&quot;slide&quot;}">
-                                <div class="uk-navbar-left">
-                                    <a href="index.html" class="uk-navbar-item uk-logo">
-                                        <img src="assets/img/logo.svg" class="uk-responsive-height" alt="StellarHacks">
-                                        <img src="assets/img/logo-inverted.svg" class="uk-responsive-height uk-logo-inverse" alt="StellarHacks">
-                                    </a>
-                                </div>
-                                <div class="uk-navbar-right">
-                                    <ul class="uk-navbar-nav">
-                                        <li>
-                                            <a href="index.html" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home">Home</a>
-                                        </li>
-                                        <li class="uk-active">
-                                            <a href="speakers.html" class=" menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">Speakers</a>
-                                        </li>
-                                        <li>
-                                            <a href="schedule.html" class=" menu-item menu-item-type-post_type menu-item-object-page">Schedule</a>
-                                        </li>
-                                        <li>
-                                            <a href="location.html" class=" menu-item menu-item-type-post_type menu-item-object-page">Location</a>
-                                        </li>
-                                        <li>
-                                            <a href="sponsors.html" class=" menu-item menu-item-type-post_type menu-item-object-page">Sponsors</a>
-                                        </li>
-                                        <!--li>
-                                            <a href="blog.html" class=" menu-item menu-item-type-post_type menu-item-object-page">Blog</a>
-                                        </li-->
-                                    </ul>
-                                    <div class="uk-navbar-item widget-text" id="widget-text-2">
-                                        <div class="textwidget">
-                                            <a href="info.html" class="uk-button uk-button-primary uk-button-large">Get tickets
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="/themes/wordpress/2017/sonic/wp-content/themes/yootheme/vendor/yootheme/theme/platforms/wordpress/assets/images/favicon.png">
+		<link rel="apple-touch-icon-precomposed" href="/themes/wordpress/2017/sonic/wp-content/themes/yootheme/vendor/yootheme/theme/platforms/wordpress/assets/images/apple-touch-icon.png">
+		<title>Speakers &#8211;StellarHacks</title>
+		<link rel='stylesheet' id='theme-style-css'  href='assets/css/theme.css' type='text/css' media='all'/>
+		<script type='text/javascript' src='assets/js/jquery.js' async></script>
+		<script type='text/javascript' src='assets/js/jquery-migrate.min.js' async></script>
+		<script type='text/javascript' src='assets/js/uikit.min.js' async></script>
+		<script type='text/javascript' src='assets/js/uikit-icons.min.js' async></script>
+		<script type='text/javascript' src='assets/js/theme.js' async></script>
+	</head>
+	<body class="page-template-default page">
+		<div class="tm-page">
+			<div class="tm-header-mobile uk-hidden@m">
+				<nav class="uk-navbar-container" uk-navbar>
+					<div class="uk-navbar-left">
+						<a class="uk-navbar-item uk-logo" href="indx.html">
+							<img src="assets/img/logo-mobile.svg" class="uk-responsive-height" alt="StellarHacks">
+						</a>
+					</div>
+					<div class="uk-navbar-right">
+						<a class="uk-navbar-toggle" href="#tm-mobile" uk-toggle>
+							<div uk-navbar-toggle-icon></div>
+						</a>
+					</div>
+				</nav>
+				<div id="tm-mobile" class="uk-modal-full" uk-modal>
+					<div class="uk-modal-dialog uk-modal-body uk-text-center uk-flex" uk-height-viewport>
+						<button class="uk-modal-close-full" type="button" uk-close></button>
+						<div class="uk-margin-auto-vertical uk-width-1-1">
+							<div class="uk-child-width-1-1" uk-grid>
+								<div>
+									<div class="uk-panel">
+										<ul class="uk-nav uk-nav-primary uk-nav-center">
+											<li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
+												<a href="index.html">Home</a>
+											</li>
+											<li class="uk-active  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">
+												<a href="speakers.html">Speakers</a>
+											</li>
+											<li class=" menu-item menu-item-type-post_type menu-item-object-page">
+												<a href="schedule.html">Schedule</a>
+											</li>
+											<li class=" menu-item menu-item-type-post_type menu-item-object-page">
+												<a href="location.html">Location</a>
+											</li>
+											<li class=" menu-item menu-item-type-post_type menu-item-object-page">
+												<a href="sponsors.html">Sponsors</a>
+											</li>
+											<!--li class=" menu-item menu-item-type-post_type menu-item-object-page">
+												<a href="blog.html">Blog</a>
+											</li-->
+										</ul>
+									</div>
+								</div>
+								<div>
+									<div class="uk-panel widget-text" id="widget-text-1">
+										<div class="textwidget">
+											<p class="uk-text-center">
+												<a class="uk-button uk-button-primary uk-button-large" href="info.html">Get tickets</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-header uk-visible@m" uk-header>
+				<div uk-sticky media="768" show-on-up animation="uk-animation-slide-top" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
+					<div class="uk-navbar-container">
+						<div class="uk-container uk-container-expand">
+							<nav class="uk-navbar" uk-navbar="{&quot;align&quot;:&quot;left&quot;,&quot;boundary&quot;:&quot;!.uk-navbar-container&quot;,&quot;dropbar&quot;:true,&quot;dropbar-anchor&quot;:&quot;!.uk-navbar-container&quot;,&quot;dropbar-mode&quot;:&quot;slide&quot;}">
+								<div class="uk-navbar-left">
+									<a href="index.html" class="uk-navbar-item uk-logo">
+										<img src="assets/img/logo.svg" class="uk-responsive-height" alt="StellarHacks">
+										<img src="assets/img/logo-inverted.svg" class="uk-responsive-height uk-logo-inverse" alt="StellarHacks">
+									</a>
+								</div>
+								<div class="uk-navbar-right">
+									<ul class="uk-navbar-nav">
+										<li>
+											<a href="index.html" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home">Home</a>
+										</li>
+										<li class="uk-active">
+											<a href="speakers.html" class=" menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">Speakers</a>
+										</li>
+										<li>
+											<a href="schedule.html" class=" menu-item menu-item-type-post_type menu-item-object-page">Schedule</a>
+										</li>
+										<li>
+											<a href="location.html" class=" menu-item menu-item-type-post_type menu-item-object-page">Location</a>
+										</li>
+										<li>
+											<a href="sponsors.html" class=" menu-item menu-item-type-post_type menu-item-object-page">Sponsors</a>
+										</li>
+										<!--li>
+											<a href="blog.html" class=" menu-item menu-item-type-post_type menu-item-object-page">Blog</a>
+										</li-->
+									</ul>
+									<div class="uk-navbar-item widget-text" id="widget-text-2">
+										<div class="textwidget">
+											<a href="info.html" class="uk-button uk-button-primary uk-button-large">Get tickets
 </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="uk-section-default" uk-scrollspy="{&quot;target&quot;:&quot;[uk-scrollspy-class]&quot;,&quot;cls&quot;:&quot;uk-animation-slide-bottom&quot;,&quot;delay&quot;:300}" tm-header-transparent="dark" tm-header-transparent-placeholder>
-                <div style="background-image: url('assets/img/speakers-bg.svg');" class="uk-background-norepeat uk-background-contain uk-background-top-left uk-background-image@m uk-section uk-section-xlarge uk-padding-remove-bottom">
-                    <div class="uk-container">
-                        <div class="uk-margin-xlarge" uk-grid>
-                            <div class="uk-width-1-1@m">
-                                <h1 uk-scrollspy-class>Speakers    </h1>
-                                <hr class="uk-divider-small" uk-scrollspy-class>
-                                <div class="uk-margin-medium uk-width-xlarge uk-text-lead" uk-scrollspy-class>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
-                            </div>
-                        </div>
-                        <div class="uk-grid-margin" uk-grid>
-                            <div class="uk-width-3-4@m">
-                                <div id="speakers-emily-jeffreys" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
-                                    <div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
-                                        <div class="uk-width-1-2@s">
-                                            <div class="uk-cover-container uk-card-media-left">
-                                                <img src="assets/img/speaker1.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="uk-card-body">
-                                                <h3 class="el-title uk-margin uk-h2">Emily Jeffreys    </h3>
-                                                <div class="el-content uk-margin">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                                    <ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
-                                                        <li>
-                                                            <a href="#">Twitter</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Facebook</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-width-expand@m"></div>
-                        </div>
-                        <div class="uk-grid-margin" uk-grid>
-                            <div class="uk-width-expand@m"></div>
-                            <div class="uk-width-3-4@m">
-                                <div id="speakers-steven-lee" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
-                                    <div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
-                                        <div class="uk-width-1-2@s">
-                                            <div class="uk-cover-container uk-card-media-left">
-                                                <img src="assets/img/speaker2.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="uk-card-body">
-                                                <h3 class="el-title uk-margin uk-h2">Steven Lee    </h3>
-                                                <div class="el-content uk-margin">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                                    <ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
-                                                        <li>
-                                                            <a href="#">Twitter</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Instagram</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Facebook</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-grid-margin" uk-grid>
-                            <div class="uk-width-3-4@m">
-                                <div id="speakers-alison-fisher" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
-                                    <div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
-                                        <div class="uk-width-1-2@s">
-                                            <div class="uk-cover-container uk-card-media-left">
-                                                <img src="assets/img/speaker3.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="uk-card-body">
-                                                <h3 class="el-title uk-margin uk-h2">Alison Fisher    </h3>
-                                                <div class="el-content uk-margin">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                                    <ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
-                                                        <li>
-                                                            <a href="#">Twitter</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Instagram</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">LinkedIn</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-width-expand@m"></div>
-                        </div>
-                        <div class="uk-grid-margin" uk-grid>
-                            <div class="uk-width-expand@m"></div>
-                            <div class="uk-width-3-4@m">
-                                <div id="speakers-johnathan-rogers" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
-                                    <div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
-                                        <div class="uk-width-1-2@s">
-                                            <div class="uk-cover-container uk-card-media-left">
-                                                <img src="assets/img/speaker4.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="uk-card-body">
-                                                <h3 class="el-title uk-margin uk-h2">Johnathan Rogers    </h3>
-                                                <div class="el-content uk-margin">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                                    <ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
-                                                        <li>
-                                                            <a href="#">Twitter</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Instagram</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Facebook</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-grid-margin" uk-grid>
-                            <div class="uk-width-3-4@m">
-                                <div id="speakers-aaron-kennedy" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
-                                    <div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
-                                        <div class="uk-width-1-2@s">
-                                            <div class="uk-cover-container uk-card-media-left">
-                                                <img src="assets/img/speaker5.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="uk-card-body">
-                                                <h3 class="el-title uk-margin uk-h2">Aaron Kennedy    </h3>
-                                                <div class="el-content uk-margin">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                                    <ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
-                                                        <li>
-                                                            <a href="#">Twitter</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Facebook</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-width-expand@m"></div>
-                        </div>
-                        <div class="uk-grid-margin" uk-grid>
-                            <div class="uk-width-expand@m"></div>
-                            <div class="uk-width-3-4@m">
-                                <div id="speakers-amber-steward" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
-                                    <div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
-                                        <div class="uk-width-1-2@s">
-                                            <div class="uk-cover-container uk-card-media-left">
-                                                <img src="assets/img/speaker6.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="uk-card-body">
-                                                <h3 class="el-title uk-margin uk-h2">Amber Steward    </h3>
-                                                <div class="el-content uk-margin">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                                    <ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
-                                                        <li>
-                                                            <a href="#">Twitter</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Instagram</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-grid-margin" uk-grid>
-                            <div class="uk-width-3-4@m">
-                                <div id="speakers-jenny-moore" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
-                                    <div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
-                                        <div class="uk-width-1-2@s">
-                                            <div class="uk-cover-container uk-card-media-left">
-                                                <img src="assets/img/speaker7.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="uk-card-body">
-                                                <h3 class="el-title uk-margin uk-h2">Jenny Moore    </h3>
-                                                <div class="el-content uk-margin">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                                    <ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
-                                                        <li>
-                                                            <a href="#">Twitter</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Instagram</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-width-expand@m"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="become-a-speaker" class="uk-section-default uk-section uk-section-large">
-                <div class="uk-container uk-container-small">
-                    <div class="uk-container uk-grid-margin-large">
-                        <div class="uk-grid-large" uk-grid>
-                            <div class="uk-width-expand@m"></div>
-                            <div class="uk-width-xlarge@m">
-                                <h2 class="uk-width-medium uk-margin-auto uk-text-center uk-h1">Become a speaker    </h2>
-                                <hr class="uk-margin-large uk-margin-remove-top uk-divider-small uk-text-center">
-                                <div class="uk-text-lead uk-margin-remove-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                <div class="uk-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                                <h3 class="uk-h4">
-                                    <span class="uk-text-background">Requirements</span>
-                                </h3>
-                                <div class="uk-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi nt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                                <h3 class="uk-h4">
-                                    <span class="uk-text-background">Perks for speakers</span>
-                                </h3>
-                                <div class="uk-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
-                                <div class="uk-margin-large uk-text-center">
-                                    <a class="el-content uk-button uk-button-primary uk-button-large" href="mailto:email@example.com">Submit a proposal                
-            </a>
-                                </div>
-                            </div>
-                            <div class="uk-width-expand@m"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="uk-section-primary uk-section uk-section-small" uk-scrollspy="{&quot;target&quot;:&quot;[uk-scrollspy-class]&quot;,&quot;cls&quot;:&quot;uk-animation-slide-left-small&quot;,&quot;delay&quot;:false}">
-                <div class="uk-container">
-                    <div class="uk-flex-middle uk-grid-margin" uk-grid>
-                        <div class="uk-width-expand@m">
-                            <div class="uk-margin-remove-vertical uk-text-left@m uk-text-center" uk-scrollspy-class>
-                                <a href="index.html" class="el-link">
-                                    <img src="assets/img/logo-inverted.svg" class="el-image" alt="StellarHacks">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="uk-width-1-2@m">
-                            <div class="uk-text-center" uk-scrollspy-class="uk-animation-slide-bottom-small">
-                                <ul class="uk-subnav uk-margin-remove-bottom uk-subnav-divider uk-flex-center" uk-margin>
-                                    <li class="el-item">
-                                        <a class="el-link" href="info.html#contact">Contact</a>
-                                    </li>
-                                    <li class="el-item">
-                                        <a class="el-link" href="info.html#code-of-conduct">Legal information</a>
-                                    </li>
-                                    <li class="el-item">
-                                        <a class="el-link" href="sponsors.html">Sponsors</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="uk-width-expand@m">
-                            <div class="uk-margin-remove-vertical uk-text-right@m uk-text-center" uk-scrollspy-class="uk-animation-slide-right-small">
-                                <div class="uk-child-width-auto uk-grid-small uk-flex-right@m uk-flex-center" uk-grid>
-                                    <div>
-                                        <a uk-icon="icon: facebook" href="http://www.facebook.com" class="el-link uk-icon-button"></a>
-                                    </div>
-                                    <div>
-                                        <a uk-icon="icon: instagram" href="http://www.instagram.com" class="el-link uk-icon-button"></a>
-                                    </div>
-                                    <div>
-                                        <a uk-icon="icon: twitter" href="http://www.twitter.com" class="el-link uk-icon-button"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4489315.js"></script>
-    </body>
+										</div>
+									</div>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="uk-section-default" uk-scrollspy="{&quot;target&quot;:&quot;[uk-scrollspy-class]&quot;,&quot;cls&quot;:&quot;uk-animation-slide-bottom&quot;,&quot;delay&quot;:300}" tm-header-transparent="dark" tm-header-transparent-placeholder>
+				<div style="background-image: url('assets/img/speakers-bg.svg');" class="uk-background-norepeat uk-background-contain uk-background-top-left uk-background-image@m uk-section uk-section-xlarge uk-padding-remove-bottom">
+					<div class="uk-container">
+						<div class="uk-margin-xlarge" uk-grid>
+							<div class="uk-width-1-1@m">
+								<h1 uk-scrollspy-class>Speakers    </h1>
+								<hr class="uk-divider-small" uk-scrollspy-class>
+								<div class="uk-margin-medium uk-width-xlarge uk-text-lead" uk-scrollspy-class>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
+							</div>
+						</div>
+						<div class="uk-grid-margin" uk-grid>
+							<div class="uk-width-3-4@m">
+								<div id="speakers-emily-jeffreys" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
+									<div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
+										<div class="uk-width-1-2@s">
+											<div class="uk-cover-container uk-card-media-left">
+												<img src="assets/img/speaker1.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
+											</div>
+										</div>
+										<div>
+											<div class="uk-card-body">
+												<h3 class="el-title uk-margin uk-h2">Emily Jeffreys    </h3>
+												<div class="el-content uk-margin">
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+													<ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
+														<li>
+															<a href="#">Twitter</a>
+														</li>
+														<li>
+															<a href="#">Facebook</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="uk-width-expand@m"></div>
+						</div>
+						<div class="uk-grid-margin" uk-grid>
+							<div class="uk-width-expand@m"></div>
+							<div class="uk-width-3-4@m">
+								<div id="speakers-steven-lee" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
+									<div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
+										<div class="uk-width-1-2@s">
+											<div class="uk-cover-container uk-card-media-left">
+												<img src="assets/img/speaker2.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
+											</div>
+										</div>
+										<div>
+											<div class="uk-card-body">
+												<h3 class="el-title uk-margin uk-h2">Steven Lee    </h3>
+												<div class="el-content uk-margin">
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+													<ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
+														<li>
+															<a href="#">Twitter</a>
+														</li>
+														<li>
+															<a href="#">Instagram</a>
+														</li>
+														<li>
+															<a href="#">Facebook</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="uk-grid-margin" uk-grid>
+							<div class="uk-width-3-4@m">
+								<div id="speakers-alison-fisher" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
+									<div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
+										<div class="uk-width-1-2@s">
+											<div class="uk-cover-container uk-card-media-left">
+												<img src="assets/img/speaker3.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
+											</div>
+										</div>
+										<div>
+											<div class="uk-card-body">
+												<h3 class="el-title uk-margin uk-h2">Alison Fisher    </h3>
+												<div class="el-content uk-margin">
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+													<ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
+														<li>
+															<a href="#">Twitter</a>
+														</li>
+														<li>
+															<a href="#">Instagram</a>
+														</li>
+														<li>
+															<a href="#">LinkedIn</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="uk-width-expand@m"></div>
+						</div>
+						<div class="uk-grid-margin" uk-grid>
+							<div class="uk-width-expand@m"></div>
+							<div class="uk-width-3-4@m">
+								<div id="speakers-johnathan-rogers" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
+									<div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
+										<div class="uk-width-1-2@s">
+											<div class="uk-cover-container uk-card-media-left">
+												<img src="assets/img/speaker4.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
+											</div>
+										</div>
+										<div>
+											<div class="uk-card-body">
+												<h3 class="el-title uk-margin uk-h2">Johnathan Rogers    </h3>
+												<div class="el-content uk-margin">
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+													<ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
+														<li>
+															<a href="#">Twitter</a>
+														</li>
+														<li>
+															<a href="#">Instagram</a>
+														</li>
+														<li>
+															<a href="#">Facebook</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="uk-grid-margin" uk-grid>
+							<div class="uk-width-3-4@m">
+								<div id="speakers-aaron-kennedy" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
+									<div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
+										<div class="uk-width-1-2@s">
+											<div class="uk-cover-container uk-card-media-left">
+												<img src="assets/img/speaker5.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
+											</div>
+										</div>
+										<div>
+											<div class="uk-card-body">
+												<h3 class="el-title uk-margin uk-h2">Aaron Kennedy    </h3>
+												<div class="el-content uk-margin">
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+													<ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
+														<li>
+															<a href="#">Twitter</a>
+														</li>
+														<li>
+															<a href="#">Facebook</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="uk-width-expand@m"></div>
+						</div>
+						<div class="uk-grid-margin" uk-grid>
+							<div class="uk-width-expand@m"></div>
+							<div class="uk-width-3-4@m">
+								<div id="speakers-amber-steward" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
+									<div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
+										<div class="uk-width-1-2@s">
+											<div class="uk-cover-container uk-card-media-left">
+												<img src="assets/img/speaker6.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
+											</div>
+										</div>
+										<div>
+											<div class="uk-card-body">
+												<h3 class="el-title uk-margin uk-h2">Amber Steward    </h3>
+												<div class="el-content uk-margin">
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+													<ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
+														<li>
+															<a href="#">Twitter</a>
+														</li>
+														<li>
+															<a href="#">Instagram</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="uk-grid-margin" uk-grid>
+							<div class="uk-width-3-4@m">
+								<div id="speakers-jenny-moore" class="uk-margin uk-card uk-card-default uk-card-large" uk-scrollspy-class>
+									<div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
+										<div class="uk-width-1-2@s">
+											<div class="uk-cover-container uk-card-media-left">
+												<img src="assets/img/speaker7.png" sizes="(min-width: 609px) 609px, 100vw" width="609" class="el-image" alt uk-cover>
+											</div>
+										</div>
+										<div>
+											<div class="uk-card-body">
+												<h3 class="el-title uk-margin uk-h2">Jenny Moore    </h3>
+												<div class="el-content uk-margin">
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+													<ul class="uk-subnav uk-subnav-divider uk-margin-medium-top">
+														<li>
+															<a href="#">Twitter</a>
+														</li>
+														<li>
+															<a href="#">Instagram</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="uk-width-expand@m"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="become-a-speaker" class="uk-section-default uk-section uk-section-large">
+				<div class="uk-container uk-container-small">
+					<div class="uk-container uk-grid-margin-large">
+						<div class="uk-grid-large" uk-grid>
+							<div class="uk-width-expand@m"></div>
+							<div class="uk-width-xlarge@m">
+								<h2 class="uk-width-medium uk-margin-auto uk-text-center uk-h1">Become a speaker    </h2>
+								<hr class="uk-margin-large uk-margin-remove-top uk-divider-small uk-text-center">
+								<div class="uk-text-lead uk-margin-remove-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+								<div class="uk-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+								<h3 class="uk-h4">
+									<span class="uk-text-background">Requirements</span>
+								</h3>
+								<div class="uk-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi nt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+								<h3 class="uk-h4">
+									<span class="uk-text-background">Perks for speakers</span>
+								</h3>
+								<div class="uk-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+								<div class="uk-margin-large uk-text-center">
+									<a class="el-content uk-button uk-button-primary uk-button-large" href="mailto:team@stellarhacks.org">Submit a proposal                
+			</a>
+								</div>
+							</div>
+							<div class="uk-width-expand@m"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="uk-section-primary uk-section uk-section-small" uk-scrollspy="{&quot;target&quot;:&quot;[uk-scrollspy-class]&quot;,&quot;cls&quot;:&quot;uk-animation-slide-left-small&quot;,&quot;delay&quot;:false}">
+				<div class="uk-container">
+					<div class="uk-flex-middle uk-grid-margin" uk-grid>
+						<div class="uk-width-expand@m">
+							<div class="uk-margin-remove-vertical uk-text-left@m uk-text-center" uk-scrollspy-class>
+								<a href="index.html" class="el-link">
+									<img src="assets/img/logo-inverted.svg" class="el-image" alt="StellarHacks">
+								</a>
+							</div>
+						</div>
+						<div class="uk-width-1-2@m">
+							<div class="uk-text-center" uk-scrollspy-class="uk-animation-slide-bottom-small">
+								<ul class="uk-subnav uk-margin-remove-bottom uk-subnav-divider uk-flex-center" uk-margin>
+									<li class="el-item">
+										<a class="el-link" href="info.html#contact">Contact</a>
+									</li>
+									<li class="el-item">
+										<a class="el-link" href="info.html#code-of-conduct">Legal information</a>
+									</li>
+									<li class="el-item">
+										<a class="el-link" href="sponsors.html">Sponsors</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="uk-width-expand@m">
+							<div class="uk-margin-remove-vertical uk-text-right@m uk-text-center" uk-scrollspy-class="uk-animation-slide-right-small">
+								<div class="uk-child-width-auto uk-grid-small uk-flex-right@m uk-flex-center" uk-grid>
+									<div>
+										<a uk-icon="icon: facebook" href="http://www.facebook.com" class="el-link uk-icon-button"></a>
+									</div>
+									<div>
+										<a uk-icon="icon: instagram" href="http://www.instagram.com" class="el-link uk-icon-button"></a>
+									</div>
+									<div>
+										<a uk-icon="icon: twitter" href="http://www.twitter.com" class="el-link uk-icon-button"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4489315.js"></script>
+	</body>
 </html>
