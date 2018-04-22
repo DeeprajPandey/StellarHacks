@@ -1,7 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300|Open+Sans:300,400);@font-face {
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400|Open+Sans:300,400);@font-face {
     font-family: star;
     font-weight: 400;
     font-style: normal
+}
+
+@font-face {
+font-family: NexaLight;
+src: url(Nexa-Light.otf);
+}
+
+@font-face {
+font-family: NexaBold;
+src: url(Nexa-Bold.otf);
 }
 
 html {
